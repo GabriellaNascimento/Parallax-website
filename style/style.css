@@ -129,19 +129,26 @@ hr{
     text-align: justify;
 }
 
+#conteudo-sobre h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: var(--corh1);
+}
+
 #img{
     background: #585396 url("../imagens/img2.jpg") center center no-repeat fixed;
     background-size: cover;
     min-height: 50vh;
 }
 
-#vazia{
-    min-height: 20vh;
+footer{
+    background-color:#ffffffd7;
+    height:50px;
+    color: black;
+    text-align: center;
+    padding-top: 6px;
 }
 
-footer{
-    background-color:rgba(0, 0, 0, 0.829);
-    height: 60px;
-    color: #fff;
-    text-align: center;
+span{
+    font-style: italic;
 }
