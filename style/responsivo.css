@@ -29,15 +29,15 @@
         flex-direction: column;
         align-items: center;
     }
-
+    /* 
     #inicio{
         background-image: none;
         background-color: var(--corprincipal)
-    }
+    } */
 
     #conteudo-inicio{
         max-width: 450px;
-        background-color: transparent;
+        background-color: ;
         box-shadow: none;
         padding-left: 30px;
     }
@@ -71,18 +71,13 @@
         margin: 1px;
     }
 
-    #inicio{
-        background-image: none;
-        background-color: var(--corprincipal)
-    }
-
     #conteudo-inicio{
         max-width: 450px;
-        background-color: transparent;
+        background-color: #2532669f;
         box-shadow: none;
         position: relative;
         margin: auto;
-        margin: 10px 50% 5px -50%;
+        margin: 0px 50% 5px -50%;
         padding-bottom: 280px;
     }
 
