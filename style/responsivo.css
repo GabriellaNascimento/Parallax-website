@@ -1,0 +1,45 @@
+:root{
+    --corprincipal: #253266;
+}
+
+@media screen and (max-width: 1300px){
+    #conteudo-inicio{
+        max-width: 500px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -250px;
+        margin-top: -200px;
+    }
+
+    #conteudo-sobre{
+        height: 40vh;
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header{
+        height: 15vh;
+        padding-bottom: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #inicio{
+        background-image: none;
+        background-color: var(--corprincipal)
+    }
+
+    #conteudo-inicio{
+        max-width: 450px;
+        background-color: transparent;
+        box-shadow: none;
+        padding-left: 30px;
+    }
+}
