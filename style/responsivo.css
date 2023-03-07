@@ -5,7 +5,7 @@
 @media screen and (max-width: 1300px){
     #conteudo-inicio{
         max-width: 500px;
-        height: 400px;
+        max-height: 400px;
         position: absolute;
         left: 50%;
         top: 50%;
@@ -20,7 +20,6 @@
         padding: 20px;
     }
 }
-
 @media screen and (max-width:600px) {
     header{
         height: 15vh;
@@ -41,5 +40,58 @@
         background-color: transparent;
         box-shadow: none;
         padding-left: 30px;
+    }
+
+    #conteudo-inicio h1{
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width:460px){
+    header{
+        height: 20vh;
+        padding: 20px 0px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    ul{
+        padding-left: 0px;
+    }
+
+    ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li a{
+        margin: 1px;
+    }
+
+    #inicio{
+        background-image: none;
+        background-color: var(--corprincipal)
+    }
+
+    #conteudo-inicio{
+        max-width: 450px;
+        background-color: transparent;
+        box-shadow: none;
+        position: relative;
+        margin: auto;
+        margin: 10px 50% 5px -50%;
+        padding-bottom: 280px;
+    }
+
+    #conteudo-inicio h1{
+        font-size: 2.5em;
+    }
+
+    #conteudo-sobre{
+        margin-top: 0px;
+        margin-bottom: 30px;
     }
 }
