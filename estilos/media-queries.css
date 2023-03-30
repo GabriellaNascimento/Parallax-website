@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+/* Celular deitado */
+@media screen and (orientation: landscape) and (max-height: 400px) and (max-width: 760px) {
+    #inicio{
+        height: auto;
+    }
+    
+    header ul{
+        text-align: left;
+    }
+
+    header li{
+        display: inline-block;
+    }
+
+    header a{
+        border-radius: 5px;
+    }
+
+    main#conteudo-inicio{
+        font-size: .9em;
+    }
+
+    main#conteudo-inicio h1{
+        font-size: 1.7em;
+    }
+
+    section#conteudo-sobre{
+        height: auto;
+        font-size: .9em;
+    }
+
+    section#conteudo-sobre h1{
+        font-size: 1.5em;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 992px) {
+    
+}
+
+/* Desktop, TV */
+@media screen and (min-width: 992px) {
+    
+}
