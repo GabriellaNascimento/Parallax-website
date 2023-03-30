@@ -25,7 +25,7 @@ html, body{
 #inicio{
     background:#585396 url("../imagens/img1.jpg") center no-repeat fixed;
     background-size: cover;
-    height: 100vh;
+    height: auto;
 }
 
 header{
@@ -64,7 +64,7 @@ main#conteudo-inicio{
     text-align: justify;
     background-color: #2532669f;
     padding:30px;
-    border-radius: 10px;
+    max-height: 150vh;
 }
 
 main#conteudo-inicio h1{
