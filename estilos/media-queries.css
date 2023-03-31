@@ -40,10 +40,112 @@
 
 /* Tablet */
 @media screen and (min-width: 760px) and (max-width: 992px) {
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header li{
+        display: inline-block;
+    }
+
+    header li  a{
+        margin: 20px 10px;
+        background-color: transparent;
+        border-radius: 40px;
+    }
+    
+    header li a:hover{
+        background-color: var(--cordestaque);
+        color: #fff;
+    }
+    
+    header #destaque a{
+        background-color: var(--cordestaque);
+        border-radius: 40px;
+        color: #fff;
+    }
+    
+    header #destaque a:hover{
+        text-decoration: underline;
+    }
+
+    main#conteudo-inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main#conteudo-inicio div{
+        width: 80vw;
+        margin: 20px 0px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    }
+
+    section#conteudo-sobre{
+        height: 30vh;
+        padding: 0px 30px;
+    }
     
 }
 
 /* Desktop, TV */
 @media screen and (min-width: 992px) {
+    #inicio{
+        height: 100vh;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header li{
+        display: inline-block;
+    }
+
+    header li  a{
+        margin: 20px 10px;
+        background-color: transparent;
+        border-radius: 40px;
+    }
+    
+    header li a:hover{
+        background-color: var(--cordestaque);
+        color: #fff;
+    }
+    
+    header #destaque a{
+        background-color: var(--cordestaque);
+        border-radius: 40px;
+        color: #fff;
+    }
+
+    main#conteudo-inicio div{
+        width: 50vw;
+        height: 600px;
+        background-color: var(--corprincipal);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+        position: absolute;
+        left: 48%;
+        top: 35%;
+    }
+
+    main#conteudo-inicio h1{
+        font-size: 3.5em;
+    }
+
+    section#conteudo-sobre{
+        height: 40vh;
+    }
+
+    section#conteudo-sobre div{
+        width: 44vw;
+        padding: 0px 10px;
+    }
     
 }

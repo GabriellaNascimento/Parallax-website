@@ -59,7 +59,7 @@ header li a:hover{
     color: #fff;
 }
 
-main#conteudo-inicio{
+main#conteudo-inicio div{
     color: #fff;
     text-align: justify;
     background-color: #2532669f;
@@ -100,7 +100,7 @@ section#conteudo-sobre{
     margin-bottom: 30px;
     padding: 0px 15px;
     text-align: justify;
-    height: 40vh;
+    height: auto;
 }
 
 section#conteudo-sobre hr{
